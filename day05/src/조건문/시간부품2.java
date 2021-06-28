@@ -22,22 +22,37 @@ public class 시간부품2 {
 		
 		Date date = new Date();
 		int hour = date.getHours();
-		int min = date.getMinutes();
-		int sec = date.getSeconds();
-		System.out.println(hour + "시" + min + "분" + sec + "초");
 		
-		if (hour >= 10 ) {
+		if (hour < 10 ) {
 			
 			System.out.println("굿모닝");
-			
-	
 			}
+		
+		else if (hour < 15) {
+			
+			System.out.println("굿애프터눈");
 			
 		}
+		
+		else if (hour < 20) {
+			
+			System.out.println("굿이브닝");
+			
+		}
+			
+
+		
+		}
+	
+	
+	
+	
+	
+	}
 
 		
 			
-		}
+		
 		
 		
 		
