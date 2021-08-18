@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body {
+	background: yellow;
+}
+/* h1에 해당하는 스타일을 괄호안에 여러가지 지정 가능 */
+/* 자동주석은 ctrl + / */
+h1{
+	
+	widows: 300px;
+	height: 100px;
+	background: lime;
+	
+}
